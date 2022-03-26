@@ -1,0 +1,27 @@
+.header {
+	border-bottom: 1px solid #f0f0f0;
+	padding: 10px;
+	margin: -12px -12px 10px -12px;
+}
+
+.table {
+	height: calc(100vh - 83px);
+	overflow-y: auto;
+
+	:global {
+		table {
+			font-size: 12px;
+		}
+		td {
+			word-break: break-all;
+		}
+	}
+}
+
+.button-group {
+	:global(.ant-btn) {
+		padding-right: 0;
+		padding-left: 0;
+		font-size: 12px;
+	}
+}

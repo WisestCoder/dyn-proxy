@@ -1,0 +1,83 @@
+.header {
+	border-bottom: 1px solid #f0f0f0;
+	padding: 10px;
+	margin: -12px -12px 10px -12px;
+}
+
+.table {
+  height: calc(100vh - 83px);
+	overflow-y: auto;
+
+	:global {
+		table {
+			font-size: 12px;
+		}
+		td {
+			word-break: break-all;
+		}
+	}
+}
+
+.drawer {
+	:global {
+		.ant-drawer-body {
+			padding: 0 24px;
+		}
+		.ant-drawer-header-title {
+			justify-content: flex-end;
+		}
+	}
+}
+
+.disabled {
+	color: #999;
+}
+
+.detailBox {
+	font-size: 12px;
+	padding: 10px 0;
+	border-bottom: 1px solid #d9d9d9;
+
+	&:last-child {
+		border: none
+	}
+}
+
+.detailLine {
+	line-height: 26px;
+	word-break: break-all;
+	margin-left: 10px;
+	font-size: 12px;
+
+	:global(label) {
+		font-weight: 700;
+		padding-right: 10px;
+	}
+}
+
+.bodyTab {
+	margin-top: 12px;
+	margin-left: 10px;
+
+	:global(.ant-tabs-nav .ant-tabs-tab) {
+		font-size: 12px;
+	}
+}
+
+.bodyTabSource {
+	line-height: 26px;
+	word-break: break-all;
+	font-size: 12px;
+}
+
+// .virtual-table-cell {
+// 	padding: 8px;
+// 	overflow: hidden;
+// 	text-overflow: ellipsis;
+// 	white-space: nowrap;
+// 	border-bottom: 1px solid rgba(0,0,0,.06);
+
+// 	&:hover {
+// 		background-color: #fafafa;
+// 	}
+// }

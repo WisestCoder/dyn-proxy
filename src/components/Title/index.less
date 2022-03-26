@@ -1,0 +1,23 @@
+.container {
+  position: relative;
+  display: inline-block;
+  color: #2a343b;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.sign {
+  padding-left: 10px;
+
+  &::before {
+    position: absolute;
+    top: 4px;
+    left: 0;
+    display: block;
+    width: 3px;
+    height: 14px;
+    background: #1f86e1;
+    content: '';
+  }
+}
